@@ -1,0 +1,649 @@
+body {
+	background-color: black;
+}
+
+h1 {
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 0;
+	margin-bottom: 0;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+	font-size: 30pt;
+	color: white;
+	text-align: center;
+	position: relative;
+	line-height: 600%;
+}
+
+.desk {
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: none;
+	height: 95vh;
+	background-image: url(background.jpg);
+	background-position: center;
+	background-repeat: repeat-y;
+	background-size: 900px 674px;
+	position: relative;
+}
+
+.table {
+	width: 640px;
+	height: 25vh;
+	background-color: white;
+	opacity: .7;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 308px;
+	position: relative;	
+	overflow-y: scroll; 
+}
+
+.keyboard {
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: -200px;
+	position: fixed;
+}
+
+.keypng {
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 0px;
+	position: fixed;
+
+}
+
+.keys {
+	background-color: red;
+	width: 660px;
+	height: 230px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 274px;
+	position: relative;
+	opacity: .35;
+}
+
+.ktild {
+	width: 31px;
+	height: 30px;
+	background-color: blue;
+	margin-left: 12px;
+	margin-top: 9px;
+	position: absolute;
+	float: left;
+}
+
+.k1 {
+	width: 31px;
+	height: 30px;
+	background-color: green;
+	margin-left: 57px;
+	margin-top: 9px;
+	position: absolute;
+	float: right;
+}
+
+.k2 {
+	width: 31px;
+	height: 30px;
+	background-color: yellow;
+	margin-left: 102px;
+	margin-top: 9px;
+	position: absolute;
+	float: right;
+}
+
+.k3 {
+	width: 31px;
+	height: 30px;
+	background-color: yellow;
+	margin-left: 146px;
+	margin-top: 9px;
+	position: absolute;
+	float: right;
+}
+
+.k4 {
+	width: 31px;
+	height: 30px;
+	background-color: yellow;
+	margin-left: 192px;
+	margin-top: 9px;
+	position: absolute;
+	float: right;
+}
+
+.k5 {
+	width: 31px;
+	height: 30px;
+	background-color: yellow;
+	margin-left: 236px;
+	margin-top: 9px;
+	position: absolute;
+	float: right;
+}
+
+.k6 {
+	width: 31px;
+	height: 30px;
+	background-color: yellow;
+	margin-left: 282px;
+	margin-top: 9px;
+	position: absolute;
+	float: right;
+}
+
+.k7 {
+	width: 31px;
+	height: 30px;
+	background-color: yellow;
+	margin-left: 327px;
+	margin-top: 9px;
+	position: absolute;
+	float: right;
+}
+
+.k8 {
+	width: 31px;
+	height: 30px;
+	background-color: yellow;
+	margin-left: 372px;
+	margin-top: 9px;
+	position: absolute;
+	float: right;
+}
+
+.k9 {
+	width: 31px;
+	height: 30px;
+	background-color: yellow;
+	margin-left: 417px;
+	margin-top: 9px;
+	position: absolute;
+	float: right;
+}
+
+.k0 {
+	width: 31px;
+	height: 30px;
+	background-color: yellow;
+	margin-left: 462px;
+	margin-top: 9px;
+	position: absolute;
+	float: right;
+}
+
+.kdash {
+	width: 31px;
+	height: 30px;
+	background-color: yellow;
+	margin-left: 507px;
+	margin-top: 9px;
+	position: absolute;
+	float: right;
+}
+
+.kequal {
+	width: 31px;
+	height: 30px;
+	background-color: yellow;
+	margin-left: 552px;
+	margin-top: 9px;
+	position: absolute;
+	float: right;
+}
+
+.kq {
+	width: 31px;
+	height: 30px;
+	background-color: blue;
+	margin-left: 79px;
+	margin-top: 53px;
+	position: absolute;
+	float: left;
+}
+
+.kw {
+	width: 31px;
+	height: 30px;
+	background-color: blue;
+	margin-left: 124px;
+	margin-top: 53px;
+	position: absolute;
+	float: right;
+}
+
+.ke {
+	width: 31px;
+	height: 30px;
+	background-color: blue;
+	margin-left: 169px;
+	margin-top: 53px;
+	position: absolute;
+	float: right;
+}
+
+.kr {
+	width: 31px;
+	height: 30px;
+	background-color: blue;
+	margin-left: 214px;
+	margin-top: 53px;
+	position: absolute;
+	float: right;
+}
+
+.kt {
+	width: 31px;
+	height: 30px;
+	background-color: blue;
+	margin-left: 259px;
+	margin-top: 53px;
+	position: absolute;
+	float: right;
+}
+
+.ky {
+	width: 31px;
+	height: 30px;
+	background-color: blue;
+	margin-left: 304px;
+	margin-top: 53px;
+	position: absolute;
+	float: right;
+}
+
+.ku {
+	width: 31px;
+	height: 30px;
+	background-color: blue;
+	margin-left: 349px;
+	margin-top: 53px;
+	position: absolute;
+	float: right;
+}
+
+.ki {
+	width: 31px;
+	height: 30px;
+	background-color: blue;
+	margin-left: 394px;
+	margin-top: 53px;
+	position: absolute;
+	float: right;
+}
+
+.ko {
+	width: 31px;
+	height: 30px;
+	background-color: blue;
+	margin-left: 439px;
+	margin-top: 53px;
+	position: absolute;
+	float: right;
+}
+
+.kp {
+	width: 31px;
+	height: 30px;
+	background-color: blue;
+	margin-left: 484px;
+	margin-top: 53px;
+	position: absolute;
+	float: right;
+}
+
+.kleftbracket {
+	width: 31px;
+	height: 30px;
+	background-color: blue;
+	margin-left: 529px;
+	margin-top: 53px;
+	position: absolute;
+	float: right;
+}
+
+.krightbracket {
+	width: 31px;
+	height: 30px;
+	background-color: blue;
+	margin-left: 574px;
+	margin-top: 53px;
+	position: absolute;
+	float: right;
+}
+
+.kbackslash {
+	width: 31px;
+	height: 30px;
+	background-color: blue;
+	margin-left: 619px;
+	margin-top: 53px;
+	position: absolute;
+	float: right;
+}
+
+.ka {
+	width: 31px;
+	height: 30px;
+	background-color: blue;
+	margin-left: 91px;
+	margin-top: 97px;
+	position: absolute;
+	float: left;
+}
+
+.ks {
+	width: 31px;
+	height: 30px;
+	background-color: blue;
+	margin-left: 136px;
+	margin-top: 97px;
+	position: absolute;
+	float: right;
+}
+
+.kd {
+	width: 31px;
+	height: 30px;
+	background-color: blue;
+	margin-left: 181px;
+	margin-top: 97px;
+	position: absolute;
+	float: right;
+}
+
+.kf {
+	width: 31px;
+	height: 30px;
+	background-color: blue;
+	margin-left: 226px;
+	margin-top: 97px;
+	position: absolute;
+	float: right;
+}
+
+.kg {
+	width: 31px;
+	height: 30px;
+	background-color: blue;
+	margin-left: 271px;
+	margin-top: 97px;
+	position: absolute;
+	float: right;
+}
+
+.kh {
+	width: 31px;
+	height: 30px;
+	background-color: blue;
+	margin-left: 316px;
+	margin-top: 97px;
+	position: absolute;
+	float: right;
+}
+
+.kj {
+	width: 31px;
+	height: 30px;
+	background-color: blue;
+	margin-left: 361px;
+	margin-top: 97px;
+	position: absolute;
+	float: right;
+}
+
+.kk {
+	width: 31px;
+	height: 30px;
+	background-color: blue;
+	margin-left: 406px;
+	margin-top: 97px;
+	position: absolute;
+	float: right;
+}
+
+.kl {
+	width: 31px;
+	height: 30px;
+	background-color: blue;
+	margin-left: 451px;
+	margin-top: 97px;
+	position: absolute;
+	float: right;
+}
+
+.ksemicolon {
+	width: 31px;
+	height: 30px;
+	background-color: blue;
+	margin-left: 496px;
+	margin-top: 97px;
+	position: absolute;
+	float: right;
+}
+
+.kapostrophe {
+	width: 31px;
+	height: 30px;
+	background-color: blue;
+	margin-left: 541px;
+	margin-top: 97px;
+	position: absolute;
+	float: right;
+}
+
+.kshift {
+	width: 87px;
+	height: 30px;
+	background-color: blue;
+	margin-left: 12px;
+	margin-top: 141px;
+	position: absolute;
+	float: left;
+}
+
+.kz {
+	width: 31px;
+	height: 30px;
+	background-color: blue;
+	margin-left: 114px;
+	margin-top: 141px;
+	position: absolute;
+	float: left;
+}
+
+.kx {
+	width: 31px;
+	height: 30px;
+	background-color: blue;
+	margin-left: 158px;
+	margin-top: 141px;
+	position: absolute;
+	float: left;
+}
+
+.kc {
+	width: 31px;
+	height: 30px;
+	background-color: blue;
+	margin-left: 204px;
+	margin-top: 141px;
+	position: absolute;
+	float: left;
+}
+
+.kv {
+	width: 31px;
+	height: 30px;
+	background-color: blue;
+	margin-left: 249px;
+	margin-top: 141px;
+	position: absolute;
+	float: left;
+}
+
+.kb {
+	width: 31px;
+	height: 30px;
+	background-color: blue;
+	margin-left: 294px;
+	margin-top: 141px;
+	position: absolute;
+	float: left;
+}
+
+.kn {
+	width: 31px;
+	height: 30px;
+	background-color: blue;
+	margin-left: 339px;
+	margin-top: 141px;
+	position: absolute;
+	float: left;
+}
+
+.km {
+	width: 31px;
+	height: 30px;
+	background-color: blue;
+	margin-left: 384px;
+	margin-top: 141px;
+	position: absolute;
+	float: left;
+}
+
+.kcoma {
+	width: 31px;
+	height: 30px;
+	background-color: blue;
+	margin-left: 429px;
+	margin-top: 141px;
+	position: absolute;
+	float: left;
+}
+
+.kperiod {
+	width: 31px;
+	height: 30px;
+	background-color: blue;
+	margin-left: 474px;
+	margin-top: 141px;
+	position: absolute;
+	float: left;
+}
+
+.kforwardslash {
+	width: 31px;
+	height: 30px;
+	background-color: blue;
+	margin-left: 519px;
+	margin-top: 141px;
+	position: absolute;
+	float: left;
+}
+
+.kshift2 {
+	width: 87px;
+	height: 30px;
+	background-color: blue;
+	margin-left: 564px;
+	margin-top: 141px;
+	position: absolute;
+	float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+table {
+	display:inline-block;
+	width: 900px;
+	height: 100vh;
+	background-color: red;
+	background-opacity: 40%;
+
+}
+
+td {
+	font-family: helvetica, sans-serif;
+	font-size: 20pt;
+	
+}
