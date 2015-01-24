@@ -1,5 +1,9 @@
-body {
-	background-color: black;
+html { 
+  background: url(04.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 h1 {
@@ -10,7 +14,7 @@ h1 {
 	font-family: 'Raleway', sans-serif;
 	font-weight: 300;
 	font-size: 30pt;
-	color: white;
+	color: black;
 	text-align: center;
 	position: relative;
 	line-height: 600%;
@@ -22,7 +26,7 @@ h1 {
 	margin-left: auto;
 	margin-top: none;
 	height: 95vh;
-	background-image: url(background.jpg);
+	background-color: none;
 	background-position: center;
 	background-repeat: repeat-y;
 	background-size: 900px 674px;
@@ -30,21 +34,24 @@ h1 {
 }
 
 .table {
-	width: 640px;
+	width: 750px;
 	height: 25vh;
-	background-color: white;
-	opacity: .7;
+	background-color: none;
+	opacity: 1;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 308px;
+	margin-top: 320px;
 	position: relative;	
-	overflow-y: scroll; 
+	overflow-y: scroll;
+	font-family: 'Raleway';
+	font-weight: 300, lighter;
+	font-size: 12pt; 
 }
 
 .keyboard {
 	width: 1000px;
 	margin-right: auto;
-	margin-left: auto;
+	margin-left: -85px;
 	margin-top: -200px;
 	position: fixed;
 }
@@ -55,6 +62,13 @@ h1 {
 	margin-left: auto;
 	margin-top: 0px;
 	position: fixed;
+	float: left;
+} 
+.mouse { 
+	width: 275px;
+	margin-right: -243px;
+	margin-top: -50px;
+	float: right;
 
 }
 
@@ -559,91 +573,103 @@ h1 {
 	float: left;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-table {
-	display:inline-block;
-	width: 900px;
-	height: 100vh;
-	background-color: red;
-	background-opacity: 40%;
-
+.koption {
+	width: 31px;
+	height: 35px;
+	background-color: blue;
+	margin-left: 102px;
+	margin-top: 185px;
+	position: absolute;
+	float: left;
 }
 
-td {
-	font-family: helvetica, sans-serif;
-	font-size: 20pt;
-	
+.kcommand {
+	width: 42px;
+	height: 35px;
+	background-color: blue;
+	margin-left: 147px;
+	margin-top: 185px;
+	position: absolute;
+	float: left;
+}
+
+.kspace {
+	width: 209px;
+	height: 35px;
+	background-color: blue;
+	margin-left: 205px;
+	margin-top: 185px;
+	position: absolute;
+	float: left;
+}
+
+.kcommand2 {
+	width: 42px;
+	height: 35px;
+	background-color: blue;
+	margin-left: 429px;
+	margin-top: 185px;
+	position: absolute;
+	float: left;
+}
+
+.koption2 {
+	width: 31px;
+	height: 35px;
+	background-color: blue;
+	margin-left: 485px;
+	margin-top: 185px;
+	position: absolute;
+	float: left;
+}
+
+.kleftarrow {
+	width: 31px;
+	height: 17px;
+	background-color: blue;
+	margin-left: 530px;
+	margin-top: 205px;
+	position: absolute;
+	float: left;
+}
+
+.kdownarrow {
+	width: 31px;
+	height: 17px;
+	background-color: blue;
+	margin-left: 575px;
+	margin-top: 205px;
+	position: absolute;
+	float: left;
+}
+
+.kuparrow {
+	width: 31px;
+	height: 17px;
+	background-color: blue;
+	margin-left: 575px;
+	margin-top: 184px;
+	position: absolute;
+	float: left;
+}
+
+.krightarrow {
+	width: 31px;
+	height: 17px;
+	background-color: blue;
+	margin-left: 620px;
+	margin-top: 205px;
+	position: absolute;
+	float: left;
+}
+
+.mouseclick { 
+	width: 45px;
+	height: 62px;
+	background-color: blue;
+	opacity: .4;
+	margin-right: -147px;
+	margin-top: -7px;
+	float: right;
+
 }
