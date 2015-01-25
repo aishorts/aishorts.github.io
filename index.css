@@ -9,28 +9,27 @@ html {
 h1 {
 	margin-right: auto;
 	margin-left: auto;
-	margin-top: 0;
-	margin-bottom: 0;
+	margin-top: 50px;
+	margin-bottom: 50px;
 	font-family: 'Raleway', sans-serif;
 	font-weight: 300;
-	font-size: 30pt;
-	color: black;
+	font-size: 40pt;
+	color: #808080;
 	text-align: center;
 	position: relative;
-	line-height: 600%;
+
 }
 
 .desk {
 	width: 1000px;
-	margin-right: auto;
-	margin-left: auto;
-	margin-top: none;
-	height: 95vh;
+	top:0; left:0; right:0; bottom:0;
+	margin: auto;
+	height: 950px;
 	background-color: none;
 	background-position: center;
 	background-repeat: repeat-y;
 	background-size: 900px 674px;
-	position: relative;
+	position: absolute;
 }
 
 .table {
@@ -38,7 +37,8 @@ h1 {
 	height: 25vh;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 320px;
+	background-color: none;
+	margin-top: 370px;
 	position: relative;	
 	overflow-y: scroll;
 }
@@ -51,6 +51,7 @@ h1 {
 	position: relative;
 	font-family: 'Raleway';
 	font-weight: 300;
+	color: #808080;
 
 }
 
@@ -62,6 +63,7 @@ h1 {
 	position: relative;
 	font-family: 'Raleway';
 	font-weight: 300;
+	color: #808080;
 
 }
 
@@ -689,4 +691,49 @@ h1 {
 	margin-top: -7px;
 	float: right;
 
+}
+
+.bottomlinks {
+	width: 1000px;
+	height: 15px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: -2px;
+
+}
+
+.link {
+  width: 200px;
+  display: inline-block;
+  text-align: center;
+  color: white;
+}
+
+a {
+	font-family: 'Raleway';
+	font-weight: 300;
+}
+
+/* unvisited link */
+a:link {
+    color: #808080;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: #808080;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: #C0C0C0;
+    text-decoration: underline;
+}
+
+/* selected link */
+a:active {
+    color: #FFFFFF;
+    text-decoration: none;
 }
